@@ -39,15 +39,3 @@ output_tree = xml_tree.ElementTree(rss_element)
 output_tree.write('podcast_xml', 
                     encoding='utf-8', 
                     xml_declaration=True)
-
-# # Verify the file is there
-# ls feed.py
-
-# # Add it to the staging area
-# git add feed.py
-
-# # Commit the change
-# git commit -m "Add missing feed generator script"
-
-# # Push to your main branch
-# git push origin main
